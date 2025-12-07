@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-guru-19"
+version = "0.1.0"
+description = ""
+authors = ["kris-zvereva <krs.zvrv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+appium-python-client = "^5.2.4"
+pytest = "^9.0.2"
+selene = "2.0.0rc9"
+selenium = "^4.26.0"
+dotenv = "^0.9.9"
+allure-python-commons = "^2.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
